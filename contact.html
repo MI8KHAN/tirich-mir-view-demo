@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Book / Contact — Tirich Mir View Hotel, Chitral</title><link rel="stylesheet" href="style.css"></head><body>
+<header><a href="index.html"><strong>Tirich Mir View Hotel</strong> • Chitral</a><nav><a href="index.html">Home</a><a href="rooms.html">Rooms</a><a href="gallery.html">Gallery</a><a href="about.html">About</a><a href="contact.html">Book / Contact</a></nav></header>
+<div class="wrap"><h1>Book / Contact</h1>
+<p>Jamia Masjid Road, Chitral Town, Khyber Pakhtunkhwa<br>Phone: (0943) 414545</p>
+<p><a class="btn" href="https://wa.me/9243414545">📱 Book on WhatsApp</a></p>
+<h2 style="margin-top:22px">Booking inquiry form</h2>
+<p style="font-size:14px;color:#555">Demo form — on the live WordPress site this becomes a real booking-inquiry form that emails / WhatsApps the hotel. For now, it opens WhatsApp with your details filled in.</p>
+<form onsubmit="const n=document.getElementById('n').value,d1=document.getElementById('d1').value,d2=document.getElementById('d2').value,g=document.getElementById('g').value,r=document.getElementById('r').value;const msg=`Hello Tirich Mir View Hotel, I want to book: Name: ${n}, Check-in: ${d1}, Check-out: ${d2}, Guests: ${g}, Room: ${r}`;window.open('https://wa.me/9243414545?text='+encodeURIComponent(msg),'_blank');return false;">
+<label>Your name</label><input id="n" required placeholder="Your name">
+<label>Check-in</label><input id="d1" type="date" required>
+<label>Check-out</label><input id="d2" type="date" required>
+<label>Guests</label><select id="g"><option>2 guests</option><option>1 guest</option><option>3 guests</option><option>4+ guests</option></select>
+<label>Room type</label><select id="r"><option>Standard Room</option><option>Deluxe — Balcony</option><option>Family Room</option></select>
+<button class="btn" type="submit">Send inquiry on WhatsApp →</button>
+</form>
+</div><footer>Demo preview — not the live hotel website.</footer></body></html>
